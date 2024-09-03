@@ -1,0 +1,254 @@
+.bestseller {
+    &__title {
+        display: block;
+        width: 112rem;
+        margin: 0 auto;
+        margin-bottom: 4.4rem;
+        display: block;
+        color: #1C1C1C;
+        font-family: Roboto;
+        font-size: 44px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        text-align: left;
+        text-transform: uppercase;
+    }
+
+    &__wrap {
+        width: 112rem;
+        display: flex;
+        justify-content: center;
+        gap: 5rem;
+        margin: 0 auto;
+        margin-bottom: 24rem;
+    }
+
+    &__box {
+        width: 80rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 2.8rem;
+        border: 1.5px solid #D4D4D4;
+        border-radius: 3rem;
+        position: relative;
+    }
+
+    &__left {
+        display: block;
+        width: 280px;
+        height: 280px;
+        position: relative;
+    }
+
+    &__img {
+        display: block;
+        width: 280px;
+        height: 280px;
+        border-top-left-radius: 3rem;
+        border-bottom-left-radius: 3rem;
+    }
+
+    &__middle {
+        width: 40rem;
+        height: 280px;
+        display: block;
+        margin: 0 auto;
+        padding-top: 2.4rem;
+        padding-left: 2.4rem;
+        text-align: left;
+    }
+
+    &__country {
+        display: block;
+        margin-bottom: .6rem;
+        color: #1C1C1C;
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        text-align: left;
+    }
+
+    &__hotel {
+        display: block;
+        margin-bottom: .5rem;
+        color: #1C1C1C;
+        font-family: Roboto;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+
+    &__rating {
+        display: block;
+        width: 114px;
+        height: 18px;
+        margin-bottom: 2.7rem;
+    }
+
+    &__stars {
+        display: block;
+        width: 114px;
+        height: 18px;
+    }
+
+    &__review {
+        width: 12rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 1rem;
+        margin-left: 0rem;
+        color: #1C1C1C;
+        font-family: Roboto;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+    }
+
+    &__rank {
+        display: block;
+        width: 40px;
+        height: 24px;
+        padding-top: .4rem;
+        padding-left: 1.1rem;
+        color: #FFF;
+        font-family: Roboto;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        border-radius: 30px;
+        background: #463998;
+    }
+
+    &__list {
+        display: block;
+        width: 20rem;
+        padding-left: 3rem;
+        list-style: none;
+        text-align: left;
+    }
+
+    &__item {
+        display: block;
+        width: 13rem;
+        margin-bottom: 1.3rem;
+        color: #1C1C1C;
+        font-family: Roboto;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        position: relative;
+
+        &::before {
+            content: "";
+            width: 18px;
+            height: 18px;
+            background-image: url(../images/yes.svg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: absolute;
+            top: -.3rem;
+            left: -3rem;
+        }
+
+    }
+
+    &__right {
+        width: 22rem;
+        display: block;
+    }
+
+    &__season {
+        display: block;
+        padding-left: 1.8rem;
+        padding-right: 1.8rem;
+        padding-top: .4rem;
+        padding-bottom: .4rem;
+        color: #585858;
+        font-family: Roboto;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        border-radius: 30px;
+        border: 1px solid #D4D4D4;
+        position: absolute;
+        top: 2rem;
+        right: 2rem;
+    }
+
+    &__priceBox {
+        width: 20rem;
+        display: flex;
+        justify-content: first baseline;
+        align-items: baseline;
+        gap: 0;
+
+    }
+
+    &__price {
+        display: block;
+        width: 15rem;
+        margin-top: 14rem;
+        margin-left: 5rem;
+        margin-bottom: 5rem;
+        color: #1C1C1C;
+        font-family: Roboto;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+
+        &-span {
+            display: block;
+            width: 5rem;
+            margin-right: 1rem;
+            font-size: 14px;
+            font-weight: 300;
+        }
+    }
+
+    &__link {
+        display: block;
+        width: 16.8rem;
+        margin-top: -4rem;
+        margin-left: 2rem;
+        padding-top: 1.1rem;
+        padding-bottom: 1rem;
+        padding-left: 1.8rem;
+        padding-right: 3.7rem;
+        border: none;
+        border-radius: 30px;
+        background: #EC1C24;
+        box-shadow: none;
+        color: #FFF;
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        text-transform: uppercase;
+        text-decoration: none;
+        position: relative;
+
+        &::before {
+            content: "";
+            width: 1.1rem;
+            height: 1.1rem;
+            background-image: url(../images/icon02.svg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: absolute;
+            top: 1.5rem;
+            left: 13.5rem;
+        }
+    }
+}
